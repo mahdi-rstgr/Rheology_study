@@ -1,4 +1,7 @@
 # Rheology Study: Automated Analysis Pipeline
+![Raw Torque vs Speed](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.png)
+![Raw Torque vs Speed](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.png)
+
 
 
 ## Overview
