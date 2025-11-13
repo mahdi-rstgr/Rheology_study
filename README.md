@@ -1,6 +1,6 @@
 # Rheology Study: Automated Analysis Pipeline
-![abstract image 1](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.png)
-![abstract image 2](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.png)
+![abstract image 1](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.jpg)
+![abstract image 2](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.jpg)
 
 
 
