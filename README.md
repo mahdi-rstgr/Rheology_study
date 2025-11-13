@@ -1,8 +1,5 @@
 # Rheology Study: Automated Analysis Pipeline
 
-![Raw Torque vs Speed](Data/Si_60K/example_raw_torque_vs_speed.png)
-![Fitted Stress-Strain](Data/Si_60K/example_fitted_stress_strain.png)
-![Viscosity Comparison](Data/Si_60K/example_viscosity_boxplot.png)
 
 ## Overview
 This repository provides a complete, automated pipeline for analyzing rheological data from cone-plate viscometer experiments. The workflow is implemented in the Jupyter notebook `stress_strain.ipynb` and is designed for rapid, reproducible analysis of multiple samples.
