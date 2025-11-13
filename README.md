@@ -1,4 +1,7 @@
 # Rheology Study: Automated Analysis Pipeline
+<img src="Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.jpg" width="48%" style="border:1px solid black;" />
+<img src="Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.jpg" width="48%" style="border:1px solid black;" />
+
 ![abstract image 1](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.jpg)
 ![abstract image 2](Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.jpg)
 
