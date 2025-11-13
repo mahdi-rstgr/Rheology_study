@@ -1,6 +1,11 @@
 # Rheology Study: Automated Analysis Pipeline
-<img src="Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.jpg" width="48%" align="center" style="border:1px solid black;" />
-<img src="Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.jpg" width="48%" align="center" style="border:1px solid black;" />
+<p align="center" width="100%">
+  <img src="Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image1.jpg" width="48%" style="border:1px solid black;" />
+</p>
+
+<p align="center" width="100%">
+  <img src="Data/DOWSIL_TC_5888/DOWSIL_TC_5888_image2.jpg" width="48%" style="border:1px solid black;" />
+</p>
 
 ## Overview
 This repository provides a complete, automated pipeline for analyzing rheological data from cone-plate viscometer experiments. The workflow is implemented in the Jupyter notebook `stress_strain.ipynb` and is designed for rapid, reproducible analysis of multiple samples.
