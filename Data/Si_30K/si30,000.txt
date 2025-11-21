@@ -1,0 +1,716 @@
+(.venv64) PS C:\Users\accel\OneDrive\Documents\visc_automated_workflow_V3>
+(.venv64) PS C:\Users\accel\OneDrive\Documents\visc_automated_workflow_V3>
+(.venv64) PS C:\Users\accel\OneDrive\Documents\visc_automated_workflow_V3>
+(.venv64) PS C:\Users\accel\OneDrive\Documents\visc_automated_workflow_V3> & C:\Users\accel\OneDrive\Documents\visc_automated_workflow_V3\.venv64\Scripts\python.exe c:/Users/accel/OneDrive/Documents/visc_automated_workflow_V3/src/python_64/dynamic_analysis.py
+================================================================================
+DYNAMIC ANALYSIS - Z-GAP vs TORQUE at MULTIPLE RPMs
+Testing RPMs: [0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 4.5, 6.0, 8.0, 10.0]
+Z-range: -65.600 to -66.700
+================================================================================
+Initializing CNC machine...
+Connected to CNC Machine! (virtual=False)
+Movement commands rendered: 3
+CNC machine initialized and homed
+Initializing viscometer...
+Viscometer initialized successfully
+Viscometer test successful: Torque = 0.0%
+
+Starting dynamic analysis for 6 cells...
+Each cell will test 13 RPMs at each Z-position
+
+============================================================
+DYNAMIC ANALYSIS - CELL 1
+Testing RPMs [0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 4.5, 6.0, 8.0, 10.0] across Z-gap range
+============================================================
+Starting from Z-safe: -65.600
+
+Cell 1 - Z-Step 1: Z=-65.600
+Moving to Cell 1: X=85, Y=62, Z=-65.600
+Movement commands rendered: 3
+    Testing 13 RPMs at Z=-65.600
+      RPM 0.1: 17 samples, Avg torque: 1.70%
+      RPM 0.2: 17 samples, Avg torque: 3.39%
+      RPM 0.3: 17 samples, Avg torque: 5.01%
+      RPM 0.5: 17 samples, Avg torque: 8.35%
+      RPM 0.7: 17 samples, Avg torque: 11.73%
+      RPM 1.0: 17 samples, Avg torque: 16.75%
+      RPM 1.5: 17 samples, Avg torque: 25.00%
+      RPM 2.0: 17 samples, Avg torque: 33.31%
+      RPM 3.0: 17 samples, Avg torque: 49.94%
+      RPM 4.5: 17 samples, Avg torque: 74.56%
+      RPM 6.0: 17 samples, Avg torque: 99.18%
+      RPM 8.0: No valid measurements collected
+      RESISTANCE: RPM 8.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.600: 11/13 successful measurements
+
+Cell 1 - Z-Step 2: Z=-65.700
+  Moving directly to Z=-65.700 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.700
+      RPM 0.1: 17 samples, Avg torque: 2.01%
+      RPM 0.2: 17 samples, Avg torque: 3.48%
+      RPM 0.3: 17 samples, Avg torque: 5.17%
+      RPM 0.5: 17 samples, Avg torque: 8.59%
+      RPM 0.7: 17 samples, Avg torque: 12.00%
+      RPM 1.0: 17 samples, Avg torque: 17.12%
+      RPM 1.5: 17 samples, Avg torque: 25.61%
+      RPM 2.0: 17 samples, Avg torque: 34.06%
+      RPM 3.0: 17 samples, Avg torque: 51.00%
+      RPM 4.5: 17 samples, Avg torque: 76.21%
+      RPM 6.0: 2 samples, Avg torque: 96.69%
+      RPM 8.0: No valid measurements collected
+      RESISTANCE: RPM 8.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.700: 11/13 successful measurements
+
+Cell 1 - Z-Step 3: Z=-65.800
+  Moving directly to Z=-65.800 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.800
+      RPM 0.1: 17 samples, Avg torque: 2.34%
+      RPM 0.2: 17 samples, Avg torque: 3.81%
+      RPM 0.3: 17 samples, Avg torque: 5.74%
+      RPM 0.5: 17 samples, Avg torque: 9.59%
+      RPM 0.7: 17 samples, Avg torque: 13.39%
+      RPM 1.0: 17 samples, Avg torque: 19.09%
+      RPM 1.5: 17 samples, Avg torque: 28.61%
+      RPM 2.0: 17 samples, Avg torque: 38.12%
+      RPM 3.0: 17 samples, Avg torque: 57.15%
+      RPM 4.5: 17 samples, Avg torque: 85.31%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.800: 10/13 successful measurements
+
+Cell 1 - Z-Step 4: Z=-65.900
+  Moving directly to Z=-65.900 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.900
+      RPM 0.1: 17 samples, Avg torque: 2.86%
+      RPM 0.2: 17 samples, Avg torque: 4.61%
+      RPM 0.3: 17 samples, Avg torque: 6.86%
+      RPM 0.5: 17 samples, Avg torque: 11.53%
+      RPM 0.7: 17 samples, Avg torque: 16.12%
+      RPM 1.0: 17 samples, Avg torque: 23.02%
+      RPM 1.5: 17 samples, Avg torque: 34.48%
+      RPM 2.0: 17 samples, Avg torque: 45.94%
+      RPM 3.0: 17 samples, Avg torque: 68.85%
+      RPM 4.5: 2 samples, Avg torque: 94.03%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.900: 10/13 successful measurements
+
+Cell 1 - Z-Step 5: Z=-66.000
+  Moving directly to Z=-66.000 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.000
+      RPM 0.1: 17 samples, Avg torque: 3.74%
+      RPM 0.2: 17 samples, Avg torque: 5.15%
+      RPM 0.3: 17 samples, Avg torque: 7.81%
+      RPM 0.5: 17 samples, Avg torque: 13.30%
+      RPM 0.7: 17 samples, Avg torque: 18.62%
+      RPM 1.0: 17 samples, Avg torque: 26.54%
+      RPM 1.5: 17 samples, Avg torque: 39.77%
+      RPM 2.0: 17 samples, Avg torque: 53.00%
+      RPM 3.0: 17 samples, Avg torque: 79.32%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.000: 9/13 successful measurements
+
+Cell 1 - Z-Step 6: Z=-66.100
+  Moving directly to Z=-66.100 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.100
+      RPM 0.1: 17 samples, Avg torque: 4.44%
+      RPM 0.2: 17 samples, Avg torque: 6.19%
+      RPM 0.3: 17 samples, Avg torque: 9.31%
+      RPM 0.5: 17 samples, Avg torque: 15.68%
+      RPM 0.7: 17 samples, Avg torque: 21.92%
+      RPM 1.0: 17 samples, Avg torque: 31.32%
+      RPM 1.5: 17 samples, Avg torque: 46.94%
+      RPM 2.0: 17 samples, Avg torque: 62.69%
+      RPM 3.0: 17 samples, Avg torque: 93.62%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.100: 9/13 successful measurements
+
+Cell 1 - Z-Step 7: Z=-66.200
+  Moving directly to Z=-66.200 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.200
+      RPM 0.1: 17 samples, Avg torque: 8.44%
+      RPM 0.2: 17 samples, Avg torque: 11.93%
+      RPM 0.3: 17 samples, Avg torque: 16.36%
+      RPM 0.5: 17 samples, Avg torque: 22.55%
+      RPM 0.7: 17 samples, Avg torque: 29.61%
+      RPM 1.0: 17 samples, Avg torque: 42.16%
+      RPM 1.5: 17 samples, Avg torque: 60.90%
+      RPM 2.0: 17 samples, Avg torque: 79.74%
+      RPM 3.0: 1 samples, Avg torque: 95.58%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.200: 9/13 successful measurements
+
+Cell 1 - Z-Step 8: Z=-66.300
+  Moving directly to Z=-66.300 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.300
+      RPM 0.1: 17 samples, Avg torque: 13.91%
+      RPM 0.2: 17 samples, Avg torque: 12.86%
+      RPM 0.3: 17 samples, Avg torque: 15.90%
+      RPM 0.5: 17 samples, Avg torque: 25.17%
+      RPM 0.7: 17 samples, Avg torque: 34.13%
+      RPM 1.0: 17 samples, Avg torque: 43.04%
+      RPM 1.5: 17 samples, Avg torque: 62.77%
+      RPM 2.0: 17 samples, Avg torque: 81.55%
+      RPM 3.0: 1 samples, Avg torque: 98.04%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.300: 9/13 successful measurements
+
+Cell 1 - Z-Step 9: Z=-66.400
+  Moving directly to Z=-66.400 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.400
+      RPM 0.1: 17 samples, Avg torque: 15.65%
+      RPM 0.2: 17 samples, Avg torque: 16.67%
+      RPM 0.3: 17 samples, Avg torque: 19.51%
+      RPM 0.5: 17 samples, Avg torque: 22.72%
+      RPM 0.7: 17 samples, Avg torque: 29.89%
+      RPM 1.0: 17 samples, Avg torque: 42.94%
+      RPM 1.5: 17 samples, Avg torque: 60.57%
+      RPM 2.0: 17 samples, Avg torque: 76.81%
+      RPM 3.0: 1 samples, Avg torque: 94.25%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.400: 9/13 successful measurements
+
+Cell 1 - Z-Step 10: Z=-66.500
+  Moving directly to Z=-66.500 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.500
+      RPM 0.1: 17 samples, Avg torque: 33.82%
+      RPM 0.2: 17 samples, Avg torque: 20.43%
+      RPM 0.3: 17 samples, Avg torque: 16.37%
+      RPM 0.5: 17 samples, Avg torque: 25.48%
+      RPM 0.7: 17 samples, Avg torque: 30.14%
+      RPM 1.0: 17 samples, Avg torque: 39.77%
+      RPM 1.5: 17 samples, Avg torque: 55.94%
+      RPM 2.0: 17 samples, Avg torque: 75.31%
+      RPM 3.0: 1 samples, Avg torque: 92.75%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.500: 9/13 successful measurements
+
+Cell 1 - Z-Step 11: Z=-66.600
+  Moving directly to Z=-66.600 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.600
+      RPM 0.1: 17 samples, Avg torque: 12.41%
+      RPM 0.2: 17 samples, Avg torque: 12.37%
+      RPM 0.3: 17 samples, Avg torque: 13.82%
+      RPM 0.5: 17 samples, Avg torque: 18.24%
+      RPM 0.7: 17 samples, Avg torque: 29.58%
+      RPM 1.0: 17 samples, Avg torque: 39.91%
+      RPM 1.5: 17 samples, Avg torque: 59.54%
+      RPM 2.0: 17 samples, Avg torque: 77.52%
+      RPM 3.0: 1 samples, Avg torque: 96.12%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.600: 9/13 successful measurements
+
+Cell 1 - Z-Step 12: Z=-66.700
+  Moving directly to Z=-66.700 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.700
+      RPM 0.1: 17 samples, Avg torque: 98.91%
+      RPM 0.2: 17 samples, Avg torque: 97.23%
+      RPM 0.3: 17 samples, Avg torque: 94.59%
+      RPM 0.5: 17 samples, Avg torque: 94.11%
+      RPM 0.7: 17 samples, Avg torque: 93.49%
+      RPM 1.0: 17 samples, Avg torque: 91.99%
+      RPM 1.5: 17 samples, Avg torque: 92.60%
+      RPM 2.0: 17 samples, Avg torque: 93.66%
+      RPM 3.0: 17 samples, Avg torque: 87.76%
+      RPM 4.5: 17 samples, Avg torque: 81.90%
+      RPM 6.0: 17 samples, Avg torque: 81.71%
+      RPM 8.0: 17 samples, Avg torque: 80.97%
+      RPM 10.0: 17 samples, Avg torque: 91.11%
+  Completed Z=-66.700: 13/13 successful measurements
+Movement commands rendered: 1
+Cell 1 returned to safe Z position
+Cell 1 dynamic analysis completed: 12 Z-positions tested
+Cell 1 dynamic analysis completed
+
+============================================================
+DYNAMIC ANALYSIS - CELL 2
+Testing RPMs [0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 4.5, 6.0, 8.0, 10.0] across Z-gap range   
+============================================================
+Starting from Z-safe: -65.600
+
+Cell 2 - Z-Step 1: Z=-65.600
+Moving to Cell 2: X=85, Y=129, Z=-65.600
+Movement commands rendered: 3
+    Testing 13 RPMs at Z=-65.600
+      RPM 0.1: 17 samples, Avg torque: 2.00%
+      RPM 0.2: 17 samples, Avg torque: 3.79%
+      RPM 0.3: 17 samples, Avg torque: 5.69%
+      RPM 0.5: 17 samples, Avg torque: 9.55%
+      RPM 0.7: 17 samples, Avg torque: 13.34%
+      RPM 1.0: 17 samples, Avg torque: 19.02%
+      RPM 1.5: 17 samples, Avg torque: 28.63%
+      RPM 2.0: 17 samples, Avg torque: 38.21%
+      RPM 3.0: 17 samples, Avg torque: 57.32%
+      RPM 4.5: 17 samples, Avg torque: 85.71%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.600: 10/13 successful measurements
+
+Cell 2 - Z-Step 2: Z=-65.700
+  Moving directly to Z=-65.700 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.700
+      RPM 0.1: 17 samples, Avg torque: 2.83%
+      RPM 0.2: 17 samples, Avg torque: 4.32%
+      RPM 0.3: 17 samples, Avg torque: 6.47%
+      RPM 0.5: 17 samples, Avg torque: 10.89%
+      RPM 0.7: 17 samples, Avg torque: 15.31%
+      RPM 1.0: 17 samples, Avg torque: 21.80%
+      RPM 1.5: 17 samples, Avg torque: 32.65%
+      RPM 2.0: 17 samples, Avg torque: 43.49%
+      RPM 3.0: 17 samples, Avg torque: 65.12%
+      RPM 4.5: 17 samples, Avg torque: 97.31%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.700: 10/13 successful measurements
+
+Cell 2 - Z-Step 3: Z=-65.800
+  Moving directly to Z=-65.800 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.800
+      RPM 0.1: 17 samples, Avg torque: 3.34%
+      RPM 0.2: 17 samples, Avg torque: 5.05%
+      RPM 0.3: 17 samples, Avg torque: 7.52%
+      RPM 0.5: 17 samples, Avg torque: 12.63%
+      RPM 0.7: 17 samples, Avg torque: 17.65%
+      RPM 1.0: 17 samples, Avg torque: 25.23%
+      RPM 1.5: 17 samples, Avg torque: 37.79%
+      RPM 2.0: 17 samples, Avg torque: 50.40%
+      RPM 3.0: 17 samples, Avg torque: 75.38%
+      RPM 4.5: 1 samples, Avg torque: 96.87%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.800: 10/13 successful measurements
+
+Cell 2 - Z-Step 4: Z=-65.900
+  Moving directly to Z=-65.900 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.900
+      RPM 0.1: 17 samples, Avg torque: 4.47%
+      RPM 0.2: 17 samples, Avg torque: 5.96%
+      RPM 0.3: 17 samples, Avg torque: 8.90%
+      RPM 0.5: 17 samples, Avg torque: 14.94%
+      RPM 0.7: 17 samples, Avg torque: 20.95%
+      RPM 1.0: 17 samples, Avg torque: 29.93%
+      RPM 1.5: 17 samples, Avg torque: 44.86%
+      RPM 2.0: 17 samples, Avg torque: 59.84%
+      RPM 3.0: 17 samples, Avg torque: 89.44%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.900: 9/13 successful measurements
+
+Cell 2 - Z-Step 5: Z=-66.000
+  Moving directly to Z=-66.000 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.000
+      RPM 0.1: 17 samples, Avg torque: 10.39%
+      RPM 0.2: 17 samples, Avg torque: 16.90%
+      RPM 0.3: 17 samples, Avg torque: 20.86%
+      RPM 0.5: 17 samples, Avg torque: 24.03%
+      RPM 0.7: 17 samples, Avg torque: 33.92%
+      RPM 0.1: 17 samples, Avg torque: 10.39%
+      RPM 0.2: 17 samples, Avg torque: 16.90%
+      RPM 0.3: 17 samples, Avg torque: 20.86%
+      RPM 0.5: 17 samples, Avg torque: 24.03%
+      RPM 0.7: 17 samples, Avg torque: 33.92%
+      RPM 0.2: 17 samples, Avg torque: 16.90%
+      RPM 0.3: 17 samples, Avg torque: 20.86%
+      RPM 0.5: 17 samples, Avg torque: 24.03%
+      RPM 0.7: 17 samples, Avg torque: 33.92%
+      RPM 0.3: 17 samples, Avg torque: 20.86%
+      RPM 0.5: 17 samples, Avg torque: 24.03%
+      RPM 0.7: 17 samples, Avg torque: 33.92%
+      RPM 0.5: 17 samples, Avg torque: 24.03%
+      RPM 0.7: 17 samples, Avg torque: 33.92%
+      RPM 0.7: 17 samples, Avg torque: 33.92%
+      RPM 1.0: 17 samples, Avg torque: 44.58%
+      RPM 1.5: 17 samples, Avg torque: 62.67%
+      RPM 1.5: 17 samples, Avg torque: 62.67%
+      RPM 2.0: 17 samples, Avg torque: 79.97%
+      RPM 2.0: 17 samples, Avg torque: 79.97%
+      RPM 3.0: 1 samples, Avg torque: 95.60%
+      RPM 4.5: No valid measurements collected
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+vel
+  Completed Z=-66.000: 9/13 successful measurements
+
+  Completed Z=-66.000: 9/13 successful measurements
+
+Cell 2 - Z-Step 6: Z=-66.100
+  Moving directly to Z=-66.100 (no retraction)
+
+Cell 2 - Z-Step 6: Z=-66.100
+  Moving directly to Z=-66.100 (no retraction)
+Cell 2 - Z-Step 6: Z=-66.100
+  Moving directly to Z=-66.100 (no retraction)
+Movement commands rendered: 1
+  Moving directly to Z=-66.100 (no retraction)
+Movement commands rendered: 1
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.100
+      RPM 0.1: 17 samples, Avg torque: 9.16%
+      RPM 0.2: 17 samples, Avg torque: 12.79%
+      RPM 0.3: 17 samples, Avg torque: 20.27%
+      RPM 0.5: 17 samples, Avg torque: 22.07%
+      RPM 0.7: 17 samples, Avg torque: 27.63%
+      RPM 1.0: 17 samples, Avg torque: 38.24%
+      RPM 1.5: 17 samples, Avg torque: 55.94%
+      RPM 2.0: 17 samples, Avg torque: 74.37%
+      RPM 3.0: 2 samples, Avg torque: 94.19%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.100: 9/13 successful measurements
+
+Cell 2 - Z-Step 7: Z=-66.200
+  Moving directly to Z=-66.200 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.200
+      RPM 0.1: 17 samples, Avg torque: 20.06%
+      RPM 0.2: 17 samples, Avg torque: 15.20%
+      RPM 0.3: 17 samples, Avg torque: 13.40%
+      RPM 0.5: 17 samples, Avg torque: 18.53%
+      RPM 0.7: 17 samples, Avg torque: 31.00%
+      RPM 1.0: 17 samples, Avg torque: 38.11%
+      RPM 1.5: 17 samples, Avg torque: 58.12%
+      RPM 2.0: 17 samples, Avg torque: 74.35%
+      RPM 3.0: 1 samples, Avg torque: 90.96%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.200: 9/13 successful measurements
+
+Cell 2 - Z-Step 8: Z=-66.300
+  Moving directly to Z=-66.300 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.300
+      RPM 0.1: 17 samples, Avg torque: 14.90%
+      RPM 0.2: 17 samples, Avg torque: 12.88%
+      RPM 0.3: 17 samples, Avg torque: 14.28%
+      RPM 0.5: 17 samples, Avg torque: 21.54%
+      RPM 0.7: 17 samples, Avg torque: 27.79%
+      RPM 1.0: 17 samples, Avg torque: 40.34%
+      RPM 1.5: 17 samples, Avg torque: 55.57%
+      RPM 2.0: 17 samples, Avg torque: 73.50%
+      RPM 3.0: 2 samples, Avg torque: 93.97%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.300: 9/13 successful measurements
+
+Cell 2 - Z-Step 9: Z=-66.400
+  Moving directly to Z=-66.400 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.400
+      RPM 0.1: 17 samples, Avg torque: 16.06%
+      RPM 0.2: 17 samples, Avg torque: 11.66%
+      RPM 0.3: 17 samples, Avg torque: 10.29%
+      RPM 0.5: 17 samples, Avg torque: 20.85%
+      RPM 0.7: 17 samples, Avg torque: 29.50%
+      RPM 1.0: 17 samples, Avg torque: 35.96%
+      RPM 1.5: 17 samples, Avg torque: 58.64%
+      RPM 2.0: 17 samples, Avg torque: 77.01%
+      RPM 3.0: 2 samples, Avg torque: 96.70%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.400: 9/13 successful measurements
+
+Cell 2 - Z-Step 10: Z=-66.500
+  Moving directly to Z=-66.500 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.500
+      RPM 0.1: 17 samples, Avg torque: 84.50%
+      RPM 0.2: 17 samples, Avg torque: 84.15%
+      RPM 0.3: 17 samples, Avg torque: 81.94%
+      RPM 0.5: 17 samples, Avg torque: 82.70%
+      RPM 0.7: 17 samples, Avg torque: 82.67%
+      RPM 1.0: 17 samples, Avg torque: 82.64%
+      RPM 1.5: 17 samples, Avg torque: 82.65%
+      RPM 2.0: 17 samples, Avg torque: 82.88%
+      RPM 3.0: 17 samples, Avg torque: 83.71%
+      RPM 4.5: 17 samples, Avg torque: 83.75%
+      RPM 6.0: 17 samples, Avg torque: 83.81%
+      RPM 8.0: 17 samples, Avg torque: 83.97%
+      RPM 10.0: 17 samples, Avg torque: 84.88%
+  Completed Z=-66.500: 13/13 successful measurements
+
+Cell 2 - Z-Step 11: Z=-66.600
+  Moving directly to Z=-66.600 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.600
+      RPM 0.1: 17 samples, Avg torque: 85.21%
+      RPM 0.2: 17 samples, Avg torque: 84.02%
+      RPM 0.3: 17 samples, Avg torque: 83.30%
+      RPM 0.5: 17 samples, Avg torque: 82.75%
+      RPM 0.7: 17 samples, Avg torque: 82.32%
+      RPM 1.0: 17 samples, Avg torque: 81.16%
+      RPM 1.5: 17 samples, Avg torque: 80.51%
+      RPM 2.0: 17 samples, Avg torque: 80.38%
+      RPM 3.0: 17 samples, Avg torque: 82.41%
+      RPM 4.5: 17 samples, Avg torque: 82.29%
+      RPM 6.0: 17 samples, Avg torque: 82.36%
+      RPM 8.0: 17 samples, Avg torque: 82.58%
+      RPM 10.0: 17 samples, Avg torque: 83.75%
+  Completed Z=-66.600: 13/13 successful measurements
+
+Cell 2 - Z-Step 12: Z=-66.700
+  Moving directly to Z=-66.700 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.700
+      RPM 0.1: 17 samples, Avg torque: 84.48%
+      RPM 0.2: 17 samples, Avg torque: 84.78%
+      RPM 0.3: 17 samples, Avg torque: 84.57%
+      RPM 0.5: 17 samples, Avg torque: 82.85%
+      RPM 0.7: 17 samples, Avg torque: 81.58%
+      RPM 1.0: 17 samples, Avg torque: 84.34%
+      RPM 1.5: 17 samples, Avg torque: 84.68%
+      RPM 2.0: 17 samples, Avg torque: 84.81%
+      RPM 3.0: 17 samples, Avg torque: 85.39%
+      RPM 4.5: 17 samples, Avg torque: 85.61%
+      RPM 6.0: 17 samples, Avg torque: 86.09%
+      RPM 8.0: 17 samples, Avg torque: 86.44%
+      RPM 10.0: 17 samples, Avg torque: 87.33%
+  Completed Z=-66.700: 13/13 successful measurements
+Movement commands rendered: 1
+Cell 2 returned to safe Z position
+Cell 2 dynamic analysis completed: 12 Z-positions tested
+Cell 2 dynamic analysis completed
+
+============================================================
+DYNAMIC ANALYSIS - CELL 3
+Testing RPMs [0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 4.5, 6.0, 8.0, 10.0] across Z-gap range   
+============================================================
+Starting from Z-safe: -65.600
+
+Cell 3 - Z-Step 1: Z=-65.600
+Moving to Cell 3: X=85, Y=196, Z=-65.600
+Movement commands rendered: 3
+    Testing 13 RPMs at Z=-65.600
+      RPM 0.1: 17 samples, Avg torque: 2.12%
+      RPM 0.2: 17 samples, Avg torque: 4.15%
+      RPM 0.3: 17 samples, Avg torque: 6.17%
+      RPM 0.5: 17 samples, Avg torque: 10.28%
+      RPM 0.7: 17 samples, Avg torque: 14.29%
+      RPM 1.0: 17 samples, Avg torque: 20.29%
+      RPM 1.5: 17 samples, Avg torque: 30.52%
+      RPM 2.0: 17 samples, Avg torque: 40.80%
+      RPM 3.0: 17 samples, Avg torque: 61.34%
+      RPM 4.5: 17 samples, Avg torque: 91.69%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.600: 10/13 successful measurements
+
+Cell 3 - Z-Step 2: Z=-65.700
+  Moving directly to Z=-65.700 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.700
+      RPM 0.1: 17 samples, Avg torque: 3.10%
+      RPM 0.2: 17 samples, Avg torque: 4.78%
+      RPM 0.3: 17 samples, Avg torque: 7.07%
+      RPM 0.5: 17 samples, Avg torque: 11.80%
+      RPM 0.7: 17 samples, Avg torque: 16.46%
+      RPM 1.0: 17 samples, Avg torque: 23.52%
+      RPM 1.5: 17 samples, Avg torque: 35.27%
+      RPM 2.0: 17 samples, Avg torque: 46.95%
+      RPM 3.0: 17 samples, Avg torque: 70.28%
+      RPM 4.5: 1 samples, Avg torque: 91.61%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.700: 10/13 successful measurements
+
+Cell 3 - Z-Step 3: Z=-65.800
+  Moving directly to Z=-65.800 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.800
+      RPM 0.1: 17 samples, Avg torque: 3.96%
+      RPM 0.2: 17 samples, Avg torque: 5.49%
+      RPM 0.3: 17 samples, Avg torque: 8.23%
+      RPM 0.5: 17 samples, Avg torque: 13.77%
+      RPM 0.7: 17 samples, Avg torque: 19.41%
+      RPM 1.0: 17 samples, Avg torque: 27.68%
+      RPM 1.5: 17 samples, Avg torque: 41.39%
+      RPM 2.0: 17 samples, Avg torque: 55.11%
+      RPM 3.0: 17 samples, Avg torque: 82.40%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.800: 9/13 successful measurements
+
+Cell 3 - Z-Step 4: Z=-65.900
+  Moving directly to Z=-65.900 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.900
+      RPM 0.1: 17 samples, Avg torque: 5.11%
+      RPM 0.2: 17 samples, Avg torque: 6.55%
+      RPM 0.3: 17 samples, Avg torque: 9.85%
+      RPM 0.5: 17 samples, Avg torque: 16.65%
+      RPM 0.7: 17 samples, Avg torque: 23.42%
+      RPM 1.0: 17 samples, Avg torque: 33.37%
+      RPM 1.5: 17 samples, Avg torque: 50.04%
+      RPM 2.0: 17 samples, Avg torque: 66.80%
+      RPM 3.0: 4 samples, Avg torque: 91.72%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.900: 9/13 successful measurements
+
+Cell 3 - Z-Step 5: Z=-66.000
+  Moving directly to Z=-66.000 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.000
+      RPM 0.1: 17 samples, Avg torque: 7.79%
+      RPM 0.2: 17 samples, Avg torque: 8.81%
+      RPM 0.3: 17 samples, Avg torque: 12.16%
+      RPM 0.5: 17 samples, Avg torque: 18.37%
+      RPM 0.7: 17 samples, Avg torque: 28.33%
+      RPM 1.0: 17 samples, Avg torque: 37.68%
+      RPM 1.5: 17 samples, Avg torque: 56.32%
+      RPM 2.0: 17 samples, Avg torque: 74.31%
+      RPM 3.0: 2 samples, Avg torque: 94.72%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.000: 9/13 successful measurements
+
+Cell 3 - Z-Step 6: Z=-66.100
+  Moving directly to Z=-66.100 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.100
+      RPM 0.1: 17 samples, Avg torque: 11.74%
+      RPM 0.2: 17 samples, Avg torque: 11.72%
+      RPM 0.3: 17 samples, Avg torque: 16.30%
+      RPM 0.5: 17 samples, Avg torque: 20.89%
+      RPM 0.7: 17 samples, Avg torque: 27.67%
+      RPM 1.0: 17 samples, Avg torque: 38.82%
+      RPM 1.5: 17 samples, Avg torque: 55.42%
+      RPM 2.0: 17 samples, Avg torque: 73.05%
+      RPM 3.0: 2 samples, Avg torque: 92.32%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.100: 9/13 successful measurements
+
+Cell 3 - Z-Step 7: Z=-66.200
+  Moving directly to Z=-66.200 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.200
+      RPM 0.1: 17 samples, Avg torque: 11.85%
+      RPM 0.2: 17 samples, Avg torque: 11.07%
+      RPM 0.3: 17 samples, Avg torque: 16.91%
+      RPM 0.5: 17 samples, Avg torque: 21.49%
+      RPM 0.7: 17 samples, Avg torque: 25.76%
+      RPM 1.0: 17 samples, Avg torque: 39.10%
+      RPM 1.5: 17 samples, Avg torque: 56.04%
+      RPM 2.0: 17 samples, Avg torque: 72.81%
+      RPM 3.0: 2 samples, Avg torque: 93.08%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.200: 9/13 successful measurements
+
+Cell 3 - Z-Step 8: Z=-66.300
+  Moving directly to Z=-66.300 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.300
+      RPM 0.1: 17 samples, Avg torque: 11.15%
+      RPM 0.2: 17 samples, Avg torque: 9.95%
+      RPM 0.3: 17 samples, Avg torque: 17.44%
+      RPM 0.5: 17 samples, Avg torque: 24.84%
+      RPM 0.7: 17 samples, Avg torque: 27.61%
+      RPM 1.0: 17 samples, Avg torque: 34.02%
+      RPM 1.5: 17 samples, Avg torque: 56.93%
+      RPM 2.0: 17 samples, Avg torque: 68.29%
+      RPM 3.0: 3 samples, Avg torque: 91.76%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.300: 9/13 successful measurements
+
+Cell 3 - Z-Step 9: Z=-66.400
+  Moving directly to Z=-66.400 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.400
+      RPM 0.1: 17 samples, Avg torque: 12.51%
+      RPM 0.2: 17 samples, Avg torque: 12.58%
+      RPM 0.3: 17 samples, Avg torque: 15.62%
+      RPM 0.5: 17 samples, Avg torque: 20.49%
+      RPM 0.7: 17 samples, Avg torque: 28.74%
+      RPM 1.0: 17 samples, Avg torque: 39.06%
+      RPM 1.5: 17 samples, Avg torque: 56.45%
+      RPM 2.0: 17 samples, Avg torque: 75.64%
+      RPM 3.0: 1 samples, Avg torque: 91.13%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.400: 9/13 successful measurements
+
+Cell 3 - Z-Step 10: Z=-66.500
+  Moving directly to Z=-66.500 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.500
+      RPM 0.1: 17 samples, Avg torque: 80.34%
+      RPM 0.2: 17 samples, Avg torque: 80.20%
+      RPM 0.3: 17 samples, Avg torque: 78.06%
+      RPM 0.5: 17 samples, Avg torque: 74.50%
+      RPM 0.7: 17 samples, Avg torque: 64.40%
+      RPM 1.0: 17 samples, Avg torque: 58.20%
+      RPM 1.5: 17 samples, Avg torque: 56.33%
+      RPM 2.0: 17 samples, Avg torque: 54.74%
+      RPM 3.0: 17 samples, Avg torque: 54.11%
+      RPM 4.5: 10 samples, Avg torque: 77.74%
+      RPM 6.0: No valid measurements collected
+      RESISTANCE: RPM 6.0 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-66.500: 10/13 successful measurements
+
+Cell 3 - Z-Step 11: Z=-66.600
+  Moving directly to Z=-66.600 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-66.600
+      RPM 0.1: No valid measurements collected
+      CRITICAL: First RPM 0.1 returned invalid torque (high resistance) - will break entire cell
+  CELL TERMINATION: First RPM exceeded threshold at Z=-66.600
+  Stopping Cell 3 Z-series testing
+Movement commands rendered: 1
+Cell 3 returned to safe Z position
+Cell 3 dynamic analysis completed: 11 Z-positions tested
+Cell 3 dynamic analysis completed
+
+============================================================
+DYNAMIC ANALYSIS - CELL 4
+Testing RPMs [0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 4.5, 6.0, 8.0, 10.0] across Z-gap range   
+============================================================
+Starting from Z-safe: -65.600
+
+Cell 4 - Z-Step 1: Z=-65.600
+Moving to Cell 4: X=85, Y=263, Z=-65.600
+Movement commands rendered: 3
+    Testing 13 RPMs at Z=-65.600
+      RPM 0.1: 17 samples, Avg torque: 2.86%
+      RPM 0.2: 17 samples, Avg torque: 5.55%
+      RPM 0.3: 17 samples, Avg torque: 8.25%
+      RPM 0.5: 17 samples, Avg torque: 13.78%
+      RPM 0.7: 17 samples, Avg torque: 19.25%
+      RPM 1.0: 17 samples, Avg torque: 27.53%
+      RPM 1.5: 17 samples, Avg torque: 41.12%
+      RPM 2.0: 17 samples, Avg torque: 54.89%
+      RPM 3.0: 17 samples, Avg torque: 82.31%
+      RPM 4.5: No valid measurements collected
+      RESISTANCE: RPM 4.5 returned invalid torque (high resistance) - stopping RPM sweep at this Z-level
+  Completed Z=-65.600: 9/13 successful measurements
+
+Cell 4 - Z-Step 2: Z=-65.700
+  Moving directly to Z=-65.700 (no retraction)
+Movement commands rendered: 1
+    Testing 13 RPMs at Z=-65.700
+      RPM 0.1: 17 samples, Avg torque: 4.53%
+      RPM 0.2: 17 samples, Avg torque: 6.41%
+
