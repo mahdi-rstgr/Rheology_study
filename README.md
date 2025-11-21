@@ -66,7 +66,7 @@ Below are comparison tables showing the analysis results for different silicon s
 
 ### 1. Raw Torque vs Speed Data Comparison
 
-| Si_60K | Si_100K_20s | Si_100K_45s |
+| Si_30K | Si_60K | Si_100K |
 |:------:|:-----------:|:-----------:|
 | ![Si_30K Raw](Data/Si_30K/30k_raw_torque_vs_speed.png) | ![Si_60K Raw](Data/Si_60K/60k_raw_torque_vs_speed.png) | ![Si_100K_45s Raw](Data/Si_100K_duration45s/100k_raw_torque_vs_speed.png) |
 | Silicon 60,000 cP | Silicon 100,000 cP (20s duration) | Silicon 100,000 cP (45s duration) |
