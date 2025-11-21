@@ -68,21 +68,21 @@ Below are comparison tables showing the analysis results for different silicon s
 
 | Si_60K | Si_100K_20s | Si_100K_45s |
 |:------:|:-----------:|:-----------:|
-| ![Si_60K Raw](Data/Si_60K/60k_raw_torque_vs_speed.png) | ![Si_100K_20s Raw](Data/Si_100K_duration20s/100k_raw_torque_vs_speed.png) | ![Si_100K_45s Raw](Data/Si_100K_duration45s/100k_raw_torque_vs_speed.png) |
+| ![Si_30K Raw](Data/Si_30K/30k_raw_torque_vs_speed.png) | ![Si_60K Raw](Data/Si_60K/60k_raw_torque_vs_speed.png) | ![Si_100K_45s Raw](Data/Si_100K_duration45s/100k_raw_torque_vs_speed.png) |
 | Silicon 60,000 cP | Silicon 100,000 cP (20s duration) | Silicon 100,000 cP (45s duration) |
 
 ### 2. Fitted Stress-Strain Curves Comparison
 
 | Si_60K | Si_100K_20s | Si_100K_45s |
 |:------:|:-----------:|:-----------:|
-| ![Si_60K Fitted](Data/Si_60K/60k_fitted_stress_strain.png) | ![Si_100K_20s Fitted](Data/Si_100K_duration20s/100k_fitted_stress_strain.png) | ![Si_100K_45s Fitted](Data/Si_100K_duration45s/100k_fitted_stress_strain.png) |
+| ![Si_30K Fitted](Data/Si_30K/30k_fitted_stress_strain2.png) | ![Si_60K Fitted](Data/Si_60K/60k_fitted_stress_strain2.png) | ![Si_100K_45s Fitted](Data/Si_100K_duration45s/100k_fitted_stress_strain2.png) |
 | Silicon 60,000 cP | Silicon 100,000 cP (20s duration) | Silicon 100,000 cP (45s duration) |
 
 ### 3. Viscosity Distribution Comparison
 
 | Si_60K | Si_100K_20s | Si_100K_45s |
 |:------:|:-----------:|:-----------:|
-| ![Si_60K Viscosity](Data/Si_60K/60k_viscosity_boxplot.png) | ![Si_100K_20s Viscosity](Data/Si_100K_duration20s/100k_viscosity_boxplot.png) | ![Si_100K_45s Viscosity](Data/Si_100K_duration45s/100k_viscosity_boxplot.png) |
+| ![Si_30K Viscosity](Data/Si_30K/30k_viscosity_boxplot.png) | ![Si_60K Viscosity](Data/Si_60K/60k_viscosity_boxplot.png) | ![Si_100K_45s Viscosity](Data/Si_100K_duration45s/100k_viscosity_boxplot.png) |
 | Silicon 60,000 cP | Silicon 100,000 cP (20s duration) | Silicon 100,000 cP (45s duration) |
 
 > **Note:** The pipeline enables comprehensive comparison between different silicon samples and measurement conditions, showing clear differences in rheological behavior.
